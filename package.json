@@ -1,12 +1,14 @@
 {
   "name": "playwright_ts_volvo",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {},
+  "description": "",
+  "scripts": {
+    "test+env": "node --env-file=.env node_modules/@playwright/test/cli.js test",
+    "test": "playwright test"
+  },
   "keywords": [],
   "author": "Violetta Korostashovets violettakorostashovets@gmail.com",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@playwright/test": "^1.44.1",
     "@types/node": "^20.14.6",
